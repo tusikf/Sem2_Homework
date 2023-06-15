@@ -3,10 +3,8 @@
 // 782 -> 8
 // 918 -> 1
 
-int number = 1000;
-
 Console.Write("Введите трехзначное число: ");
-number = int.Parse(Console.ReadLine()!);
+int number = int.Parse(Console.ReadLine()!);
 int kk = number / 100;
 
 while ( kk < 1 || kk > 10)
