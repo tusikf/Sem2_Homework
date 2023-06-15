@@ -5,7 +5,7 @@
 
 int number = 1000;
 
-Console.Write("Введите трехзначное число1: ");
+Console.Write("Введите трехзначное число: ");
 number = int.Parse(Console.ReadLine()!);
 int kk = number / 100;
 
